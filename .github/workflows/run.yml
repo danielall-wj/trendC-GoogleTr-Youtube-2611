@@ -2,7 +2,7 @@ name: run
 
 on:
   schedule:
-    - cron: "26 * * * *"
+    - cron: "13 8,9,20,21 * * *"
   workflow_dispatch:
 
 permissions:
